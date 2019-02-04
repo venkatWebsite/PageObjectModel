@@ -8,9 +8,11 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+	// this is new commit from Mukesh
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
+		
 	}
 	
 	@FindBy(name="username1") WebElement uname;
