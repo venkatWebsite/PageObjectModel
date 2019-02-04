@@ -21,7 +21,6 @@ public class LoginPage {
 	
 	@FindBy(xpath="//input[@value='Login']") WebElement loginButton;
 	
-	
 	public void loginToCRM(String usernameApplication,String passwordApplication)
 	{
 		try 
@@ -31,10 +30,8 @@ public class LoginPage {
 		{
 			
 		}
-		
 		uname.sendKeys(usernameApplication);
 		pass.sendKeys(passwordApplication);
 		loginButton.click();
 	}
-	
 }
