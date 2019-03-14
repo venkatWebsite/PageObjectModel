@@ -88,7 +88,7 @@ public class BaseClass {
 		
 		Reporter.log("Test Completed >>> Reports Generated", true);
 		
-		Reporter.log("Report can be accessed via >>> "+reportPath);
+		Reporter.log("Report can be accessed via >>> "+reportPath,true);
 
 	}
 
