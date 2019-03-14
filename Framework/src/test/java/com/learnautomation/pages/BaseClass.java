@@ -28,7 +28,7 @@ public class BaseClass {
 	public ConfigDataProvider config;
 	public ExtentReports report;
 	public ExtentTest logger;
-
+	String reportPath;
 
 	@BeforeSuite
 	public void setUpSuite() 
@@ -39,7 +39,9 @@ public class BaseClass {
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
 		
-		ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/FreeCRM_"+Helper.getCurrentDateTime()+".html"));
+		reportPath=System.getProperty("user.dir")+"/Reports/FreeCRM_"+Helper.getCurrentDateTime()+".html";
+		
+		ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(reportPath));
 		report=new ExtentReports();
 		report.attachReporter(extent);
 		
@@ -85,6 +87,8 @@ public class BaseClass {
 		report.flush();
 		
 		Reporter.log("Test Completed >>> Reports Generated", true);
+		
+		Reporter.log("Report can be accessed via >>> "+reportPath);
 
 	}
 
