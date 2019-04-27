@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up Report for the Project]]>
+    </line>
+    <line>
+      <![CDATA[Report instance is ready]]>
+    </line>
+    <line>
+      <![CDATA[Starting Chrome Waiting for browser to launch]]>
+    </line>
+    <line>
+      <![CDATA[Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Adding the test result to the report]]>
+    </line>
+    <line>
+      <![CDATA[Trying to close the session ]]>
+    </line>
+    <line>
+      <![CDATA[Session Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20969" started-at="2019-04-20T04:16:07Z" finished-at="2019-04-20T04:16:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20969" started-at="2019-04-20T04:16:07Z" finished-at="2019-04-20T04:16:28Z">
+      <class name="testcases.LoginTestCRMPro">
+        <test-method status="PASS" signature="setupProject()[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa]" name="setupProject" is-config="true" duration-ms="356" started-at="2019-04-20T09:46:07Z" finished-at="2019-04-20T09:46:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Report for the Project]]>
+            </line>
+            <line>
+              <![CDATA[Report instance is ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupProject -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa]" name="setupTest" is-config="true" duration-ms="10054" started-at="2019-04-20T09:46:07Z" finished-at="2019-04-20T09:46:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Chrome Waiting for browser to launch]]>
+            </line>
+            <line>
+              <![CDATA[Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa]" name="loginAsAdmin" duration-ms="9071" started-at="2019-04-20T09:46:17Z" finished-at="2019-04-20T09:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method status="PASS" signature="tearDownProject(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa]" name="tearDownProject" is-config="true" duration-ms="1063" started-at="2019-04-20T09:46:26Z" finished-at="2019-04-20T09:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsAdmin status=SUCCESS method=LoginTestCRMPro.loginAsAdmin()[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Adding the test result to the report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownProject -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:testcases.LoginTestCRMPro@29ee9faa]" name="tearDownTest" is-config="true" duration-ms="750" started-at="2019-04-20T09:46:27Z" finished-at="2019-04-20T09:46:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to close the session ]]>
+            </line>
+            <line>
+              <![CDATA[Session Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- testcases.LoginTestCRMPro -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
