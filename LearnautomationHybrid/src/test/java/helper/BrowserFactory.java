@@ -19,7 +19,7 @@ public class BrowserFactory {
 		
 		if(browserName.equalsIgnoreCase("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Chandani_50\\Desktop\\Feb\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\.m2\\repository\\webdriver\\chromedriver\\win32\\75.0.3770.140\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 		}else if(browserName.equalsIgnoreCase("Firefox"))

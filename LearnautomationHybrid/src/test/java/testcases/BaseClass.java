@@ -54,7 +54,7 @@ public class BaseClass {
 	}
 	*/
 	
-	@Parameters("appBrowser")
+//	@Parameters("appBrowser")
 	@BeforeClass
 	public void setupTest(String browser)
 	{  
